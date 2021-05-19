@@ -63,7 +63,7 @@ button#send-message {
 <script language="javascript" type="text/javascript">  
 	//create a new WebSocket object.
 	var msgBox = $('#message-box');
-	var wsUri = "ws://localhost:9000/demo/server.php"; 	
+	var wsUri = "wss://tywebsocket.herokuapp.com/"; 	
 	websocket = new WebSocket(wsUri); 
 	
 	websocket.onopen = function(ev) { // connection is open 
