@@ -123,6 +123,7 @@ button#send-message {
 		var msg = {
 			message: message_input.val(),
 			name: name_input.val(),
+			type:'usermsg',
 			color : '<?php echo $colors[$color_pick]; ?>'
 		};
 		//convert and send data to server
